@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, sans-serif;
+    font-weight: lighter;
+    background: linear-gradient(#63389c 50%, #d410b4);
+    height: 100vh;
+}
+
+.stars {
+        width:100%;
+        height:100%;
+        background: url(http://www.script-tutorials.com/demos/360/images/stars.png);
+        z-index: 0;
+}
+
+.default-header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.default-title {
+    font-weight: lighter;
+    position: absolute;
+    font-size: 2.75rem;
+    padding-top: 8rem;
+    color:#dd9ad2;
+    letter-spacing: 2px;
+    line-height: 1px;
+    text-shadow: 8px 8px 10px #301651;
+}
+
+.instructions {
+    position: absolute;
+    font-size: 1.2rem;
+    top: 15%;
+    text-align: center;
+    color: rgb(200, 187, 223);
+    letter-spacing: .5px;
+    text-transform: lowercase;
+    max-width: 500px;
+    text-shadow: 5px 5px 8px #350c6a;
+}
+
+.default-ball {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-ball {
+    position: absolute;
+    top: 26%;
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    background: linear-gradient(to bottom, #908e8e, #292828 50%, #000000 75%, #000000 75%);
+    box-shadow: 0px 8px 10px 1px rgb(63, 3, 87);
+}
+
+.viewport {
+    position: absolute;
+    top: 20%;
+    right: 20%;
+    background: white;
+    width: 180px;
+    height: 180px;
+    border-radius: 100px;
+}
+
+.eight {
+    position: absolute;
+    font-size: 8rem;
+    top: 6%;
+    left: 27%;
+    font-family: "Anta", sans-serif;
+}
+
+.question {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(31.5rem);
+}
+
+.my-question {
+    font-size: 1rem;
+    letter-spacing: 1px;
+    line-height: 5px;
+    width: 15rem;
+    text-align: center;
+    border: none;
+    padding: 8px;
+    border-radius: 12px;
+    outline: none;
+    text-transform: lowercase;
+}
+
+.shake {
+    position: absolute;
+    transform: translateX(100px);
+    transform: translateY(40px);
+    margin-top: 2rem;
+    padding: 13px 18px;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    line-height: 5px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color:#63389c;
+    color: rgba(255, 255, 255, 0.687);
+    box-shadow: 2px 2px 8px rgb(50, 3, 96);
+}
